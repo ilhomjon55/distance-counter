@@ -1,0 +1,7 @@
+ .span-grow {
+   transition: flex-grow 1s ease-out;
+ }
+
+ .list__item:hover .span-grow {
+   flex-grow: 1;
+ }

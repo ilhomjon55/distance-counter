@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Telegram | Ilhom</title>
+  <title>Distance Calculator</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -15,28 +15,41 @@
     <h1 class="h3 text-center my-5">Kim birinchi bo-rish-ga!</h1>
     <form action="https://echo.htmlacademy.ru/" class="main-form row justify-content-center">
       <input class="distance-input form-control col-4 mr-2" type="text" name="distance-input" placeholder="100km">
-      <button class="submit-btn btn btn-primary col-5" type="submit">Hisobla</button>
+      <button class="submit-btn btn btn-info col-5" type="submit">Hisobla</button>
     </form>
+
     <ul class="list-group list-unstyled d-flex ">
-      <li class="list__item list-group-item-action my-3 border-bottom piyoda">
-        <p>Piyoda</p>
-        <output class="piyoda-item text-info font-italic">0</output>
-        <span>soat</span>
+      <li class="list__item d-flex align-items-center p-1 pr-3 list-group-item-action my-3 border-bottom piyoda">
+        <div class="mr-5">
+          <p class="h6">Piyoda</p>
+          <output class="piyoda-item text-info font-italic">0</output>
+        </div>
+        <span class="span-grow"></span>
+        <img src="img/pedestrian-man.svg" width="45" height="45" alt="Piyoda">
       </li>
-      <li class="list__item list-group-item-action my-3 border-bottom velik">
-        <p>Velosiped</p>
-        <output class="velik-item text-info font-italic">0</output>
-        <span>soat</span>
+      <li class="list__item d-flex align-items-center p-1 pr-3 list-group-item-action my-3 border-bottom velik">
+        <div class="mr-5">
+          <p class="h6">Velosiped</p>
+          <output class="velik-item text-info font-italic">0</output>
+        </div>
+        <span class="span-grow"></span>
+        <img src="img/pedal_bike-24px.svg" width="45" height="45" alt="Bike">
       </li>
-      <li class="list__item list-group-item-action my-3 border-bottom moshin">
-        <p>Moshina</p>
-        <output class="moshin-item text-info font-italic">0</output>
-        <span>soat</span>
+      <li class="list__item d-flex align-items-center p-1 pr-3 list-group-item-action my-3 border-bottom moshin">
+        <div class="mr-5">
+          <p class="h6">Moshina</p>
+          <output class="moshin-item text-info font-italic">0</output>
+        </div>
+        <span class="span-grow"></span>
+        <img src="img/car.svg" width="45" height="45" alt="Car">
       </li>
-      <li class="list__item list-group-item-action my-3 border-bottom samalyot">
-        <p>Samalyot</p>
-        <output class="samalyot-item text-info font-italic">0</output>
-        <span>soat</span>
+      <li class="list__item d-flex align-items-center p-1 pr-3 list-group-item-action my-3 border-bottom samalyot">
+        <div class="mr-5">
+          <p class="h6">Samalyot</p>
+          <output class="samalyot-item text-info font-italic">0</output>
+        </div>
+        <span class="span-grow"></span>
+        <img src="img/flight.svg" width="45" height="45" alt="Airplane">
       </li>
     </ul>
   </div>
