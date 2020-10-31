@@ -47,15 +47,15 @@ elMainForm.addEventListener('submit', function (evt) {
   } else if (isNaN(targetDistance)) {
     elPiyodaResult.textContent = '0';
     elVelikResult.textContent = '0';
-    elMoshinResult.textContent = '0';
-    elSamalyotResult.textContent = '0';
+    elCarResult.textContent = '0';
+    elPlaneResult.textContent = '0';
     alert(`Raqam yozing brodar-aziz!`);
 
   } else {
     elPiyodaResult.textContent = '0';
     elVelikResult.textContent = '0';
-    elMoshinResult.textContent = '0';
-    elSamalyotResult.textContent = '0';
+    elCarResult.textContent = '0';
+    elPlaneResult.textContent = '0';
     alert(`Musbat raqam kiriting birodar!`);
   }
 
